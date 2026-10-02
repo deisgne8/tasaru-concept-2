@@ -994,7 +994,7 @@ body{font-family:'Forma DJR Arabic','DM Sans',Arial,sans-serif}
 
 .brand-logo{
   display:block;
-  width:190px;
+  width:214px;
   flex:0 0 auto;
   line-height:0
 }
@@ -1003,21 +1003,24 @@ body{font-family:'Forma DJR Arabic','DM Sans',Arial,sans-serif}
   width:100%;
   height:auto
 }
+.site-header .brand-logo img{
+  filter:brightness(0) invert(1)
+}
 .site-header.is-scrolled .brand-logo img{
-  filter:invert(1)
+  filter:none
 }
 .footer-brand-logo{
-  width:220px;
+  width:248px;
   max-width:100%
 }
 .site-footer .brand-logo img{
-  filter:none
+  filter:brightness(0) invert(1)
 }
 @media(max-width:800px){
   .brand-logo{
-    width:150px
+    width:168px
   }
   .footer-brand-logo{
-    width:190px
+    width:210px
   }
 }
